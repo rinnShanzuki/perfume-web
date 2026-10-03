@@ -1,0 +1,10 @@
+{
+  "name": "aurea-premium-perfume-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": { "build": "node build.mjs", "dev": "node serve.mjs", "db:generate": "drizzle-kit generate" },
+  "devDependencies": { "drizzle-kit": "0.31.10", "drizzle-orm": "0.45.2" }
+}

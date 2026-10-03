@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import http from 'node:http';
+import {DatabaseSync} from 'node:sqlite';
+fs.mkdirSync('.aurea-local',{recursive:true});
+const sqlite=new DatabaseSync('.aurea-local/aurea.sqlite');
+sqlite.exec('CREATE TABLE IF NOT EXISTS local_migrations (name TEXT PRIMARY KEY)');
+for(const name of fs.readdirSync('drizzle').filter(name=>name.endsWith('.sql')).sort()){if(!sqlite.prepare('SELECT name FROM local_migrations WHERE name=?').get(name)){sqlite.exec(fs.readFileSync('drizzle/'+name,'utf8'));sqlite.prepare('INSERT INTO local_migrations(name) VALUES(?)').run(name);}}
+const DB={prepare(sql){let values=[];return {bind(...params){values=params;return this;},async first(){return sqlite.prepare(sql).get(...values)||null;},async all(){return {results:sqlite.prepare(sql).all(...values)};},async run(){const result=sqlite.prepare(sql).run(...values);return {success:true,meta:{changes:result.changes}};}};},async batch(statements){sqlite.exec('BEGIN');try{const results=[];for(const statement of statements)results.push(await statement.run());sqlite.exec('COMMIT');return results;}catch(error){sqlite.exec('ROLLBACK');throw error;}}};
+const root=path.resolve('dist/client');
+const types={'.html':'text/html; charset=utf-8','.js':'application/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.webp':'image/webp','.svg':'image/svg+xml','.txt':'text/plain','.xml':'application/xml'};
+const ASSETS={async fetch(request){let pathname=decodeURIComponent(new URL(request.url).pathname);let file=path.resolve(root,'.'+pathname);if(file!==root&&!file.startsWith(root+path.sep))return new Response('Not found',{status:404});if(fs.existsSync(file)&&fs.statSync(file).isDirectory())file=path.join(file,'index.html');if(!fs.existsSync(file)||!fs.statSync(file).isFile())return new Response('Not found',{status:404});return new Response(request.method==='HEAD'?null:fs.readFileSync(file),{headers:{'Content-Type':types[path.extname(file)]||'application/octet-stream'}});}};
+let worker,modified=0;
+http.createServer(async(req,res)=>{try{const stat=fs.statSync('dist/server/index.js');if(stat.mtimeMs!==modified){worker=(await import('./dist/server/index.js?v='+stat.mtimeMs)).default;modified=stat.mtimeMs;}const chunks=[];for await(const chunk of req)chunks.push(chunk);const request=new Request('http://127.0.0.1:4175'+req.url,{method:req.method,headers:req.headers,...(['GET','HEAD'].includes(req.method)?{}:{body:Buffer.concat(chunks)})});const response=await worker.fetch(request,{DB,ASSETS,LOCAL_PREVIEW:true},{waitUntil(p){p.catch(()=>{});}});res.writeHead(response.status,Object.fromEntries(response.headers));res.end(Buffer.from(await response.arrayBuffer()));}catch(error){console.error(error.message);res.writeHead(500);res.end('Preview request failed.');}}).listen(4175,'127.0.0.1',()=>console.log('Auréa preview ready: http://127.0.0.1:4175'));

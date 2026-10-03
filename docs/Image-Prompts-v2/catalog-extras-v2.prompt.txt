@@ -1,0 +1,14 @@
+Use case: product-mockup.
+Asset type: luxury perfume catalog packshot photography atlas for Aurea Parfums.
+Create ONE landscape PNG image, exactly 1536 pixels wide by 1024 pixels high. Divide canvas into exactly THREE equal columns and TWO equal rows of square photographs, each exactly 512 by 512 pixels. Photographs meet edge to edge at x=512, x=1024 and y=512. NO gutters, NO borders, NO outside margins. No blending between photographs. No text outside product labels.
+Each square shows ONE distinct upright 50 mL perfume bottle centered in its own elegant studio photograph. Full bottle and entire cap visible, including bottle base, with at least 20 percent breathing space around it. Bottle should occupy roughly 60 percent of image height; no cropping. Maintain distinct bottle shapes and caps, actual luxury glass, immaculate sharp beauty product photography.
+
+Exact order left to right:
+TOP LEFT: Petal Silk. Blush-pink ROUND perfume bottle with a fluted GOLD cap, beside soft peony petals on warm ivory surface. Clearly round curved silhouette.
+TOP MIDDLE: Sunlit Neroli. TALL RECTANGULAR pale-yellow perfume bottle with SILVER cap, beside delicate orange blossom, pale ivory backdrop. Slender rectangular silhouette.
+TOP RIGHT: Velvet Amber. SQUAT REEDED honey-colored GLASS perfume bottle with rich GOLD cap, standing on umber stone, warm creamy backdrop. Broad low bottle with obvious fine vertical glass ribs.
+BOTTOM LEFT: Moonlit Linen. WIDE OVAL CLEAR perfume bottle with flat WHITE cap, with pale linen draped behind and beside it. Clear colorless juice, broad oval silhouette, cool soft ivory light.
+BOTTOM MIDDLE: Ebony Oud. DARK FACETED TALL perfume bottle with BLACK ROUNDED cap, on charcoal surface beside oud wood. Rich deep smoky brown, clearly faceted angular tall glass silhouette, charcoal shadows.
+BOTTOM RIGHT: Rose Nocturne. RUBY RED RECTANGULAR perfume bottle with SLIM ROSE GOLD cap, beside a dark rose, warm blush-ivory setting. Deep ruby juice, rectangular silhouette and narrow metallic cap.
+
+Coherent ivory, blush and gold luxury beauty theme, realistic material glass, premium studio light, elegant restrained props, readable labels. The only visible words in the entire image must be the same bottle brand label exactly "AUREA" with smaller "PARFUMS" beneath. Spell A U R E A and P A R F U M S, refined label typography. Do not print fragrance names or volume. No Chinese characters, no other brands, no watermarks, no panel numbers. SIX distinct upright product packshots.

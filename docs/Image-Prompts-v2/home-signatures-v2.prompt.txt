@@ -1,0 +1,14 @@
+Use case: product-mockup.
+Asset type: luxury perfume editorial photography atlas for Aurea Parfums.
+Create ONE landscape PNG image, exactly 1536 pixels wide by 1024 pixels high. The canvas is divided into exactly THREE equal columns and TWO equal rows of square photographs: each cell is 512 by 512 pixels. Photographs meet edge to edge at x=512, x=1024 and y=512. NO gutters, NO borders, NO outer margins, NO panel numbers, NO typography outside the bottle labels. Every cell is an independent photograph with its own coherent lighting and backdrop. Do not blend adjacent scenes.
+
+Order left to right:
+TOP LEFT: Rose Velvet. A square blush-pink perfume bottle with crystal cap nestled among close-up fresh pink rose petals. Editorial close still life, bottle angled slightly toward the viewer, tactile petals overlapping around the glass, soft luminous pink and ivory.
+TOP MIDDLE: Golden Bloom. A square pale-gold perfume bottle laid diagonally at 45 degrees on bright ivory silk beside small white flowers. Overhead still-life photograph, visible rectangular front label, bright gold highlights in silk folds.
+TOP RIGHT: Amber Veil. An amber perfume bottle beside a piece of warm brown wood, dramatic side-lit close-up from low oblique angle. Amber glow, warm ivory backdrop, detailed glass reflections.
+BOTTOM LEFT: Pure Musk. A clear square perfume bottle with frosted glass resting at a gentle diagonal on ivory linen, intimate close-up with pale folds and milky soft light. Keep the recognizable square silhouette.
+BOTTOM MIDDLE: Noir Woods. A smoky dark square perfume bottle with black cap beside cedar wood on charcoal stone. Editorial angled three-quarter composition, tactile cedar and moody side light.
+BOTTOM RIGHT: A spare close-up of a clear square perfume bottle on an iridescent pearl tray, oblique overhead camera, pearl reflections, restrained ivory surroundings.
+
+Photorealistic luxury beauty campaign photography, physically accurate glass/refraction/materials, premium refined ivory/blush/gold visual family. Each frame has a DIFFERENT angle and composition; these are alternative editorial photographs, not six repeating upright pedestal catalog packshots. No humans.
+The only visible words in the entire image must be on each bottle label, exactly: "AUREA" and beneath it smaller "PARFUMS". Spelled A U R E A and P A R F U M S. Clear readable refined black or dark-gold label typography. Do not print the fragrance names. No other text, no Chinese characters, no other brands, no watermark. No repetition of the same photograph.

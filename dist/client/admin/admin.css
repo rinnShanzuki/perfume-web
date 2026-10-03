@@ -1,0 +1,43 @@
+@import url('/fonts.css');
+:root{color-scheme:light;--editor-ivory:#fffaf7;--editor-blush:#f8e9e7;--editor-rose:#b86c78;--editor-ink:#493b39;--editor-gold:#b79b64;--editor-muted:#83726b}
+body{margin:0;background:var(--editor-ivory);font-family:Arial,Helvetica,sans-serif;color:var(--editor-ink)}
+.editor-loading{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:28px;margin:0;padding:24px;box-sizing:border-box;text-align:center;background:var(--editor-ivory)}
+.editor-wordmark{display:block;width:max-content;color:var(--editor-ink);font:36px Georgia,'Times New Roman',serif;letter-spacing:.15em;text-decoration:none;line-height:1.15;text-align:center}
+.editor-wordmark small{display:block;margin-top:9px;font:9px Arial,Helvetica,sans-serif;letter-spacing:.42em;text-indent:.42em}
+.aurea-login{display:grid;grid-template-columns:1.03fr 1fr;min-height:100vh;background:var(--editor-ivory)}
+.aurea-login-photo{position:relative;overflow:hidden;min-height:100vh;background:var(--editor-blush)}
+.aurea-login-photo img{display:block;width:100%;height:100%;position:absolute;inset:0;object-fit:cover;object-position:48% center}
+.aurea-login-photo:after{content:'';position:absolute;inset:50% 0 0;background:linear-gradient(transparent,rgba(70,44,39,.45))}
+.aurea-photo-caption{position:absolute;bottom:9%;left:10%;right:10%;z-index:1;color:#fff;text-shadow:0 1px 12px rgba(70,44,39,.12)}
+.aurea-photo-caption span{font:italic 37px/1.2 Georgia,'Times New Roman',serif}
+.aurea-photo-caption p{font-size:13px;letter-spacing:.025em;line-height:1.7}
+.aurea-login-content{display:flex;flex-direction:column;align-items:center;justify-content:space-between;min-width:0;padding:66px 40px 28px;box-sizing:border-box}
+.aurea-login-card{width:min(100%,390px);margin:70px 0;text-align:center}
+.editor-eyebrow{display:block;color:var(--editor-muted);font-size:10px;font-weight:400;letter-spacing:.22em;text-transform:uppercase;line-height:1.5}
+.aurea-login-card h1{margin:18px 0;font:43px/1.17 Georgia,'Times New Roman',serif;color:var(--editor-ink)}
+.editor-gold-line{display:block;width:46px;height:1px;background:var(--editor-gold);margin:22px auto}
+.editor-intro{max-width:340px;margin:0 auto 32px;color:var(--editor-muted);font-size:14px;line-height:1.85}
+.editor-continue{width:100%;padding:17px 22px;border:1px solid var(--editor-rose);border-radius:3px;background:var(--editor-rose);color:white;font:12px/1.5 Arial,Helvetica,sans-serif;letter-spacing:.06em;cursor:pointer;transition:background .18s ease,box-shadow .18s ease}
+.editor-continue:hover:not(:disabled){background:#a65b68;border-color:#a65b68;box-shadow:0 6px 18px #b86c781f}
+.editor-continue:disabled{opacity:.6;cursor:wait}
+.editor-continue:focus-visible,.editor-return:focus-visible,.editor-wordmark:focus-visible{outline:3px solid var(--editor-gold);outline-offset:5px}
+.editor-access-note{margin:15px 0 25px;color:var(--editor-muted);font-size:11px;line-height:1.6}
+.editor-return{color:var(--editor-ink);font-size:11px;text-underline-offset:4px;line-height:1.8}
+.editor-footer{margin:0;font-size:8px;letter-spacing:.16em;color:var(--editor-muted);line-height:1.7;text-align:center}
+/* Bundled covers are read-only; the backend also rejects file uploads. */
+.nc-fileUploadButton{display:none!important}
+.journal-editor-preview{max-width:780px;margin:0 auto;padding:36px 28px 60px;background:var(--editor-ivory);color:var(--editor-ink)}
+.journal-preview-heading{text-align:center;margin-bottom:30px}
+.journal-preview-heading h1{font:42px/1.2 Georgia,'Times New Roman',serif;max-width:630px;margin:18px auto}
+.journal-preview-excerpt{max-width:530px;margin:0 auto 20px;font-size:14px;line-height:1.8;color:var(--editor-muted)}
+.journal-preview-heading time{font-size:10px;color:var(--editor-muted)}
+.journal-preview-draft{color:#9e5c66;font-size:11px;letter-spacing:.03em}
+.journal-preview-image{display:block;width:100%;max-height:430px;object-fit:cover;margin:0 0 32px}
+.journal-preview-body{max-width:580px;margin:auto;font-size:14px;line-height:1.9}
+.journal-preview-body h2{font:27px/1.35 Georgia,'Times New Roman',serif;margin:30px 0 14px}
+.journal-preview-body h3{font:22px/1.4 Georgia,'Times New Roman',serif}
+.journal-preview-body a{color:var(--editor-rose);text-underline-offset:3px}
+.journal-preview-body img{max-width:100%;height:auto}
+@media(max-width:800px){.aurea-login{grid-template-columns:1fr}.aurea-login-photo{min-height:250px;height:30vh;max-height:360px}.aurea-photo-caption{bottom:13%;left:7%}.aurea-photo-caption span{font-size:29px}.aurea-photo-caption p{font-size:11px;margin-bottom:0}.aurea-login-content{padding:34px 24px 22px;min-height:70vh}.aurea-login-card{margin:46px 0}.aurea-login-card h1{font-size:36px}.editor-wordmark{font-size:30px}.journal-editor-preview{padding:28px 20px 44px}.journal-preview-heading h1{font-size:33px}}
+@media(prefers-reduced-motion:reduce){.editor-continue{transition:none}}
+.journal-preview-frame{position:relative;width:100%;height:340px;overflow:hidden}.journal-preview-square{position:absolute;width:100%;aspect-ratio:1;top:50%;transform:translateY(-50%)}.journal-preview-square img{position:absolute;width:300%;height:200%;max-width:none;object-fit:fill}

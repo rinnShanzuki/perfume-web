@@ -1,0 +1,87 @@
+{
+  "layouts": [
+    {
+      "path": "/",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/fragrances",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/about",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/scent-guide",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/faq",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/contact",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/journal",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/journal/finding-your-signature-scent",
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/fragrances",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/about",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/scent-guide",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/faq",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/contact",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/journal",
+      "width": 390,
+      "status": 200
+    },
+    {
+      "path": "/journal/finding-your-signature-scent",
+      "width": 390,
+      "status": 200
+    }
+  ],
+  "imagesAndStyles": true,
+  "editorCreatePublishReloadAndDelete": true,
+  "consoleErrors": []
+}

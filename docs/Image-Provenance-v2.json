@@ -1,0 +1,38 @@
+[
+  {
+    "name": "home-signatures-v2",
+    "method": "Built-in image generation; lossless geometry preserved, WebP encoding only",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "output": "/assets/home-signatures-v2.webp"
+  },
+  {
+    "name": "catalog-extras-v2",
+    "method": "Built-in image generation; lossless geometry preserved, WebP encoding only",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "output": "/assets/catalog-extras-v2.webp"
+  },
+  {
+    "name": "guide-contact-v2",
+    "method": "Built-in image generation; lossless geometry preserved, WebP encoding only",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "output": "/assets/guide-contact-v2.webp"
+  },
+  {
+    "name": "journal-faq-v2",
+    "method": "Built-in image generation; lossless geometry preserved, WebP encoding only",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "output": "/assets/journal-faq-v2.webp"
+  }
+]

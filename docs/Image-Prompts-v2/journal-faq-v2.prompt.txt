@@ -1,0 +1,16 @@
+Use case: photorealistic-natural
+Asset type: premium perfume editorial photography atlas for Auréa Parfums website articles and FAQ.
+
+Create ONE exact 1536 x 1024 pixel landscape image as a mathematically regular 3-column by 2-row contact sheet: SIX equal 512 x 512 pixel square photographs. Panels fill the complete canvas edge to edge, with boundaries at x=512, x=1024 and y=512. Absolutely NO gutters, margins, gaps, frames, borders, dividers, rounded corners, collage overlap, headlines, captions, panel numbers or watermark.
+
+Brand and visual direction: Auréa Parfums. Premium restrained luxury, blush pink, warm ivory and pale gold; photorealistic editorial perfume photographs, subtle natural daylight, tactile realistic glass and elegant materials. All six photographs share a coordinated palette but each is a genuinely different scene, different perfume bottle material and silhouette, distinct bottle angle, size and composition. Every scene's main bottle or main pair must be contained in the CENTRAL THIRD of its square frame vertically and horizontally enough to preserve brand identity when the panel is cropped as a horizontal article photograph. Keep the bottle readable at its natural scale, with restrained negative space. Real photography, no illustrations or rendered plastic look.
+
+Six panels in EXACT reading order:
+TOP LEFT — signature-story. Round rose-tinted glass perfume bottle with cylindrical polished gold cap on a personal ivory vanity. A gold mirror sits beside it in soft blur. A quiet personal portrait of fragrance. Bottle centered in the frame.
+TOP MIDDLE — notes-guide-story. Clear angular faceted perfume bottle on pale ivory stone, accompanied by thin strips of citrus rind and ONE small white flower. Bright, fresh and precise still life. Bottle centered in the frame. It must be unmistakably a different bottle than the round rose glass bottle.
+TOP RIGHT — everydayritual-story. Small pearl opalescent glass perfume bottle beside an open journal with entirely BLANK ivory pages and blush silk, on a morning table by a window. Gentle lived-in morning ritual. Bottle centered in the frame; distinctly small and pearl-colored.
+BOTTOM LEFT — gift-story. Deep golden glass RECTANGULAR perfume bottle standing inside an open ivory gift box with blush ribbon draped nearby. Elegant gifting still life, no printed gift-box wording. Bottle centered in the frame.
+BOTTOM MIDDLE — inside-studio-story. Tall slender amber glass perfume bottle arranged between laboratory glass pipettes and small amber vials on a tidy ivory workbench. Thoughtful perfumer studio. No peonies or large florals. Bottle centered in the frame; distinctly tall and narrow.
+BOTTOM RIGHT — FAQs. TWO perfume bottles, one clear and one blush glass, in a calm overhead flat lay beside fans of unprinted ivory scent blotters on pale marble. Neutral reassuring editorial composition. Center the bottle pair in the central third of the frame.
+
+The ONLY readable text allowed anywhere is small restrained product label typography on perfume bottles: exact uppercase "AUREA" with much smaller "PARFUMS" beneath. Spell A-U-R-E-A precisely. No other brands, no Chinese text, no additional lettering on props, no headline or caption text. No humans, no hands. Preserve six perfectly equal square panels and their exact assigned scenes.

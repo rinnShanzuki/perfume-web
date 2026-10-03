@@ -1,0 +1,110 @@
+{
+  "allpass": true,
+  "passed": 22,
+  "failed": 0,
+  "checked_at": "2026-10-03T06:04:56.320Z",
+  "runtime": "v24.19.0",
+  "scope": "Actual Worker and Drizzle migrations with an isolated Node SQLite in-memory D1 adapter. No LOCAL_PREVIEW, network calls, live database writes, or website source changes.",
+  "worker_sha256": "e59e77ba1cce2e7fef784ac20c822a530135586f8dbb8367da4bc7c5bab86a9d",
+  "migrations": [
+    {
+      "name": "0000_foamy_freak.sql",
+      "sha256": "07c93ddea2326bb92e722e0873666e373620511b4e44d669affd5a98a45856f8"
+    }
+  ],
+  "final_counts": {
+    "journal_entries": 5,
+    "inquiries": 3,
+    "inquiry_actions": 4
+  },
+  "checks": [
+    {
+      "name": "Anonymous editor access returns 401 and cannot claim the editor account",
+      "pass": true
+    },
+    {
+      "name": "First authenticated identity is accepted as the sole editor",
+      "pass": true
+    },
+    {
+      "name": "A second identity is rejected with 403",
+      "pass": true
+    },
+    {
+      "name": "Owner writes without an Origin are rejected with 403",
+      "pass": true
+    },
+    {
+      "name": "Owner cross-origin writes are rejected with 403",
+      "pass": true
+    },
+    {
+      "name": "Journal initializes exactly five sample entries from the actual Worker",
+      "pass": true
+    },
+    {
+      "name": "CMS creates a durable JSON story and derives its slug from the file path",
+      "pass": true
+    },
+    {
+      "name": "CMS reads the saved story through the editor and public APIs",
+      "pass": true
+    },
+    {
+      "name": "Public story rendering escapes title, excerpt, heading, and body HTML",
+      "pass": true
+    },
+    {
+      "name": "CMS updates an existing story without adding another database row",
+      "pass": true
+    },
+    {
+      "name": "Draft stories remain editable but are absent from public API, listing, and article routes",
+      "pass": true
+    },
+    {
+      "name": "CMS deletion removes the test story and restores the five sample entries",
+      "pass": true
+    },
+    {
+      "name": "Deleted sample stories are not reseeded on subsequent reads",
+      "pass": true
+    },
+    {
+      "name": "Invalid inquiry data returns 400 without writing inquiry or analytics records",
+      "pass": true
+    },
+    {
+      "name": "Honeypot inquiries return success but write no database rows",
+      "pass": true
+    },
+    {
+      "name": "A valid inquiry returns 201 and persists one inquiry plus its submission count",
+      "pass": true
+    },
+    {
+      "name": "Inquiry limit accepts three per email per hour and returns 429 for the fourth",
+      "pass": true
+    },
+    {
+      "name": "Contact button clicks are accepted without storing supplied personal fields",
+      "pass": true
+    },
+    {
+      "name": "Other client analytics actions return 400 without inserting records",
+      "pass": true
+    },
+    {
+      "name": "Analytics paths containing query-string personal data are rejected",
+      "pass": true
+    },
+    {
+      "name": "Public inquiry and analytics writes also reject missing or cross-site origins",
+      "pass": true
+    },
+    {
+      "name": "Final isolated journal state contains five sample stories and no audit story",
+      "pass": true
+    }
+  ]
+}

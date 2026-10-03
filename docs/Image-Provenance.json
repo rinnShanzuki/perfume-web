@@ -1,0 +1,53 @@
+{
+  "project": "Auréa Parfums",
+  "bottleLabel": "AUREA PARFUMS",
+  "generationMode": "built-in image_gen",
+  "generatedAssetCount": 3,
+  "imageGenCalls": 3,
+  "parallelIndependentCalls": true,
+  "retries": 0,
+  "variants": 0,
+  "outputDirectory": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-10-02\\ca-2\\work\\aurea-generated-assets",
+  "assets": [
+    {
+      "filename": "hero-perfume.png",
+      "prompt": "Use case: product-mockup\nAsset type: original hero photograph for a fictional high-end perfume storefront, Auréa Parfums.\nGenerate exactly one landscape image, 3:2 aspect ratio (1536 by 1024 pixels preferred).\nPrimary request: luxury editorial perfume photography. A recognizably square clear-glass 50mL perfume bottle filled with translucent rose-pink perfume, with a clear sculpted glass cap and polished gold atomizer, rests on a cream marble pedestal in the RIGHT HALF of the image. Elegant cream paper bottle label has exact large serif text \"AUREA\" and smaller text \"PARFUMS\" beneath.\nScene/backdrop: softly blurred blush peonies and a curved gold mirror behind the bottle. Soft ivory silk accents and natural cream marble.\nComposition/framing: bottle is fully framed and occupies the right half; preserve the entire left half as warm pale ivory negative space for a future HTML headline. Keep the negative space quiet and softly illuminated. Camera at bottle height, refined three-quarter editorial product composition.\nLighting/mood: soft natural daylight, warm and refined, realistic reflections and gentle shadows.\nColor palette: warm ivory, pale blush, rose perfume, understated gold.\nMaterials/textures: realistic clear sculpted glass, pale cream marble veins, soft silk, fresh peony petals, natural paper label.\nText (verbatim, bottle label only): \"AUREA\" above \"PARFUMS\". Spell A-U-R-E-A and P-A-R-F-U-M-S exactly.\nConstraints: high-end photorealistic product photograph; only one perfume bottle; no people or hands; no external brand names; no other text, logos, slogan or watermark.",
+      "path": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-10-02\\ca-2\\work\\aurea-generated-assets\\hero-perfume.png",
+      "sourcePath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a0ffa5-bad2-7023-98ab-ebb8d2dc1f2c\\exec-e9182965-61bd-4596-85d6-a033c84d2c82.png",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "3:2"
+      },
+      "status": "success",
+      "visualValidation": "Square clear bottle in right half, left pale ivory space, blush peonies and gold mirror, exact AUREA/PARFUMS label."
+    },
+    {
+      "filename": "perfume-atlas.png",
+      "prompt": "Use case: product-mockup\nAsset type: six-product photo atlas for a fictional high-end perfume storefront, Auréa Parfums.\nGenerate exactly ONE landscape 3:2 image (1536 by 1024 pixels preferred) containing a precise 3-column by 2-row contact sheet. The six cells must be equal squares, edge-to-edge, with ZERO gaps, gutters, borders, captions or extraneous labels.\nPrimary request: each cell is a separate photorealistic luxury editorial photograph of the SAME recognizably square 50mL perfume bottle design: clear thick square glass body, polished gold atomizer and clear sculpted glass cap. Each bottle must be entirely within its own cell, fully framed, resting on a pedestal against silk and/or florals. Consistent product scale, camera height, bottle shape and label placement across all six cells.\nExact fixed cell order:\nTOP LEFT: translucent rose-pink perfume, blush-pink peonies, pale blush silk and cream pedestal.\nTOP MIDDLE: pale-gold perfume, white florals, warm ivory silk and cream pedestal.\nTOP RIGHT: amber perfume, rich golden silk and warm cream pedestal.\nBOTTOM LEFT: clear pale perfume, cream-white silk and softly lit ivory pedestal.\nBOTTOM MIDDLE: near-black perfume bottle, charcoal satin backdrop and dark charcoal pedestal.\nBOTTOM RIGHT: clear pale yellow-green perfume, fresh citrus accents and light ivory backdrop/pedestal.\nEach bottle has an elegant cream paper label with exact large serif text \"AUREA\" and smaller \"PARFUMS\" beneath. Do not write any scent names or captions anywhere in the image.\nLighting/mood: soft natural editorial daylight with realistic reflections, refined luxury.\nMaterials/textures: realistic glass, gold metal, paper, silk, stone, floral petals and citrus peel.\nText (verbatim, labels only): \"AUREA\" above \"PARFUMS\". Spell A-U-R-E-A and P-A-R-F-U-M-S exactly.\nConstraints: precisely six cells in a strict 3-by-2 grid; precisely one fully framed bottle per cell; no gaps/borders; no people/hands; no brand CN, Halimuyak, or external product names; no extra text/logos/watermark.",
+      "path": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-10-02\\ca-2\\work\\aurea-generated-assets\\perfume-atlas.png",
+      "sourcePath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a0ffa5-bad2-7023-98ab-ebb8d2dc1f2c\\exec-caaf8faf-0930-4178-a695-45f52797d9b3.png",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "3:2"
+      },
+      "status": "success",
+      "visualValidation": "Strict three-column by two-row edge-to-edge atlas; each cell 512x512. Six fully framed bottle photographs in the requested color/material order; readable AUREA/PARFUMS labels, no captions."
+    },
+    {
+      "filename": "atelier-story.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: original editorial story photograph for a fictional high-end perfume storefront, Auréa Parfums.\nGenerate exactly one landscape image, 3:2 aspect ratio (1536 by 1024 pixels preferred).\nPrimary request: a refined, lovely editorial still life of perfume making on a cream worktable. One clear square 50mL perfume bottle with a clear sculpted glass cap and gold atomizer, discreet cream label reading exact \"AUREA\" over smaller \"PARFUMS\". Around it are glass pipettes, small glass amber oil vials, blank perfume blotter strips, and soft blush peony petals.\nScene/backdrop: cream worktable with softly draped ivory silk in a naturally lit perfumery atelier; understated, beautifully arranged craft objects.\nComposition/framing: close editorial still-life composition, all primary objects fully framed, gentle diagonal arrangement, natural believable object scale.\nLighting/mood: warm daylight and gentle shadows, calm hand-crafted perfumery atmosphere, refined and inviting.\nColor palette: cream, ivory, blush pink, amber oils, subtle gold.\nMaterials/textures: realistic transparent glass, paper strips, peony petals, soft silk, cream tabletop.\nText (verbatim, bottle label only): \"AUREA\" above \"PARFUMS\". Spell A-U-R-E-A and P-A-R-F-U-M-S exactly.\nConstraints: photorealistic luxury editorial photograph; no people or hands; no text other than bottle label; oil vials and blotters are unlettered; no watermark or external brand marks.",
+      "path": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-10-02\\ca-2\\work\\aurea-generated-assets\\atelier-story.png",
+      "sourcePath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a0ffa5-bad2-7023-98ab-ebb8d2dc1f2c\\exec-14931bd0-b9a7-4610-ab3b-560c2b98d1e3.png",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024,
+        "aspectRatio": "3:2"
+      },
+      "status": "success",
+      "visualValidation": "Square clear bottle, perfumery glass vessels and pipettes, blank blotter strips, peony petals, ivory silk and warm daylight; exact AUREA/PARFUMS label."
+    }
+  ],
+  "failures": []
+}
